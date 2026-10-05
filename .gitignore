@@ -1,0 +1,9 @@
+# build output
+/orders-api
+app/orders-api
+# env & local
+*.env
+.env*
+.DS_Store
+.idea/
+.vscode/

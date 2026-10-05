@@ -1,0 +1,15 @@
+# Keep build context small and secrets/junk out of image layers.
+.git
+.github
+.gitignore
+*.md
+before/
+k8s/
+measure.sh
+# local build output, env, editor noise
+/orders-api
+*.env
+.env*
+.DS_Store
+.idea/
+.vscode/
